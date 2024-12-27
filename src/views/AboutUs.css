@@ -1,0 +1,77 @@
+.about-us {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .section-text {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  /* Team section styles */
+  .team-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;  /* Adjust width to fit 3 items in a row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styling for member photo */
+  .member-photo {
+    background-color: #eee;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  
+  .member-name {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .member-role {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 768px) {
+    .team-member {
+      width: 48%;  /* Two members per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-member {
+      width: 100%;  /* One member per row on very small screens */
+    }
+  }
+  

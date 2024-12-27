@@ -7,9 +7,7 @@ export const ContactUs = () => {
     alert('Form submitted!');
   };
 
-  const handleReset = () => {
-    alert('Form reset!');
-  };
+  
 
   return (
     <div className="contact-form-container">
